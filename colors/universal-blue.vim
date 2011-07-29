@@ -2,7 +2,7 @@
 " Vim color file
 " Maintainer:	Aldis Berjoza <aldis [@] bsdroot [.] lv>
 " Last Change:	2011.07.28
-" Version:	1.1.2
+" Version:	1.1.3
 " Homepage:	http://hg.bsdroot.lv/aldis/dot.vim/file/tip/colors/universal-blue.vim
 "
 " Based on borland.vim theme (http://www.vim.org/scripts/script.php?script_id=92) by Yegappan Lakshmanan
@@ -43,7 +43,7 @@ if exists("syntax_on")
 endif
 let g:colors_name="universal-blue"
 
-hi Comment			gui=None	guifg=Gray		guibg=#000060
+hi Comment			gui=None	guifg=#909090		guibg=#000060
 hi Comment	term=None	cterm=None	ctermfg=Gray		ctermbg=DarkBlue
 hi Constant			gui=None	guifg=Cyan		guibg=#000060
 hi Constant	term=None	cterm=None	ctermfg=Cyan		ctermbg=DarkBlue
@@ -95,5 +95,5 @@ hi VertSplit			gui=Bold	guifg=#000060		guibg=Gray
 hi VertSplit	term=Bold	cterm=Bold	ctermfg=DarkBlue	ctermbg=Gray
 hi Visual			gui=None	guifg=Yellow		guibg=DarkCyan
 hi Visual	term=None	cterm=None	ctermfg=Yellow		ctermbg=DarkCyan
-hi WarningMsg			gui=standout	guifg=#000060		guibg=Yellow
-hi WarningMsg	term=standout	cterm=None	ctermfg=DarkBlue	ctermbg=Yellow
+hi WarningMsg			gui=Standout	guifg=#000060		guibg=Yellow
+hi WarningMsg	term=Standout	cterm=None	ctermfg=DarkBlue	ctermbg=Yellow
