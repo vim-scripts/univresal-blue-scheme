@@ -5,7 +5,7 @@ For this reason this theme is tested in gvim, urxvt and FreeBSD console
 
 For virtual terminals I use these colors in .Xdefaults:
       URxvt.color0:  #000000
-      URxvt.color8:  #909090
+      URxvt.color8:  #606060
       URxvt.color1:  #800000
       URxvt.color9:  #FF0000
       URxvt.color2:  #00800a
