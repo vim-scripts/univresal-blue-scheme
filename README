@@ -4,30 +4,33 @@ The purpose of this theme is to be usable not only in gvim, but to be also usabl
 For this reason this theme is tested in gvim, urxvt and FreeBSD console
 
 For virtual terminals I use these colors in .Xdefaults:
-      URxvt.color0:  #000000
-      URxvt.color8:  #606060
-      URxvt.color1:  #800000
-      URxvt.color9:  #FF0000
-      URxvt.color2:  #00800a
-      URxvt.color10: #00FF00
-      URxvt.color3:  #808000
-      URxvt.color11: #FFFF00
-      URxvt.color4:  #000040
-      URxvt.color12: #5050FF
-      URxvt.color5:  #800080
-      URxvt.color13: #FF00FF
-      URxvt.color6:  #008080
-      URxvt.color14: #00FFFF
-      URxvt.color7:  #909090
-      URxvt.color15: #FFFFFF
-      URxvt.background:       #000000
-      URxvt.foreground:       #FFFFFF
-      URxvt.underlineColor:   #5070ff
-      URxvt.cursorColor:      #ffffff
 
-Also I set LSCOLORS=DxGxGxCxBxexcxbxbxFxFb (for colorful ls)
+XTerm*color0:   #000000
+XTerm*color8:   #606060
+XTerm*color1:   #800000
+XTerm*color9:   #FF0000
+XTerm*color2:   #00800a
+XTerm*color10:  #00FF00
+XTerm*color3:   #E7811B
+XTerm*color11:  #FFFF00
+XTerm*color4:   #000060
+XTerm*color12:  #5050FF
+XTerm*color5:   #800080
+XTerm*color13:  #FF00FF
+XTerm*color6:   #008080
+XTerm*color14:  #00FFFF
+XTerm*color7:   #909090
+XTerm*color15:  #FFFFFF
 
-Screenshot comparing gvim and vim in terminal:
-http://files.bsdroot.lv/my/screenshots/vim/universal-blue/2011.07.28_at_00.27.05.png
+XTerm*Background:       #000000
+XTerm*Foreground:       #FFFFFF
+XTerm*underlineColor:   #5070ff
+XTerm*cursorColor:      #ffffff
 
-As you can see gvim has brighter background, thats intentionally because i use urxvt with 16 colors with dark background, so I needed compromise
+
+
+Also I set LSCOLORS=DxGxGxCxBxexcxbxbxFxFb (for colorful ls, which looks quite nice with these colors)
+
+Screenshots comparing gvim and vim in terminal:
+http://files.bsdroot.lv/my/screenshots/vim/universal-blue/2011.11.07_at_23.40.32.png (vim)
+http://files.bsdroot.lv/my/screenshots/vim/universal-blue/2011.11.07_at_23.41.29.png (gvim)
