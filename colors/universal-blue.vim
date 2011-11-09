@@ -1,7 +1,7 @@
 " Vim color file
 " Maintainer:	Aldis Berjoza << graudeejs at gmail dot com >>
-" Last Change:	2011.11.07
-" Version:	1.4.0
+" Last Change:	2011.11.09
+" Version:	1.4.1
 " Homepage:	https://github.com/graudeejs/dot.vim/blob/master/colors/universal-blue.vim
 "
 " Based on borland.vim theme (http://www.vim.org/scripts/script.php?script_id=92) by Yegappan Lakshmanan
@@ -64,9 +64,9 @@ hi SpellBad	cterm=None	ctermfg=Yellow		ctermbg=DarkGreen
 hi Statement	cterm=None	ctermfg=White		ctermbg=DarkBlue
 hi StatusLine	cterm=Bold	ctermfg=Yellow		ctermbg=DarkMagenta
 hi StatusLineNC	cterm=Bold	ctermfg=Yellow		ctermbg=Blue
-hi TabLine	cterm=None	ctermfg=Black		ctermbg=Gray
-hi TabLineFill	cterm=None	ctermfg=DarkBlue	ctermbg=Black
-hi TabLineSel	cterm=Bold	ctermfg=Yellow		ctermbg=Cyan
+hi TabLine	cterm=None	ctermfg=White		ctermbg=Blue
+hi TabLineFill	cterm=Bold	ctermfg=Gray		ctermbg=Black
+hi TabLineSel	cterm=Bold	ctermfg=Yellow		ctermbg=DarkMagenta
 hi Type		cterm=None	ctermfg=White		ctermbg=DarkBlue
 hi VertSplit	cterm=Bold	ctermfg=White		ctermbg=Blue
 hi Visual	cterm=None	ctermfg=Yellow		ctermbg=DarkCyan
@@ -84,31 +84,30 @@ hi Error	gui=None	guifg=White		guibg=Red
 hi FoldColumn	gui=None	guifg=Cyan		guibg=Black
 hi Folded	gui=None	guifg=DarkCyan		guibg=#000060
 hi Identifier	gui=None	guifg=White		guibg=#000060
+hi DiffAdd	gui=Bold	guifg=Yellow		guibg=DarkMagenta
+hi DiffChange	gui=None	guifg=White		guibg=DarkMagenta
+hi DiffDelete	gui=None	guifg=Red		guibg=Black
+hi DiffText	gui=Bold	guifg=Yellow		guibg=Magenta
 hi LineNr	gui=None	guifg=Gray		guibg=Black
 hi ModeMsg	gui=None	guifg=Gray		guibg=Black
 hi MoreMsg	gui=None	guifg=Gray		guibg=Black
+hi NonText	gui=None	guifg=Red		guibg=Black
 hi Normal	gui=None	guifg=Yellow		guibg=#000060
 hi PreProc	gui=None	guifg=Green		guibg=#000060
 hi Search	gui=None	guifg=Black		guibg=Red
 hi Special	gui=None	guifg=Magenta		guibg=#000060
-hi NonText	gui=None	guifg=Red		guibg=Black
 hi SpecialKey	gui=None	guifg=Cyan		guibg=Black
 hi SpellBad	gui=None	guifg=Yellow		guibg=DarkGreen
 hi Statement	gui=None	guifg=White		guibg=#000060
 hi StatusLine	gui=Bold	guifg=Yellow		guibg=DarkMagenta
 hi StatusLineNC	gui=Bold	guifg=Yellow		guibg=#5050FF
-hi TabLine	gui=None	guifg=Black		guibg=Gray
-hi TabLineFill	gui=None	guifg=#000060		guibg=Black
-hi TabLineSel	gui=Bold	guifg=Yellow		guibg=Cyan
+hi TabLine	gui=None	guifg=White		guibg=#5050FF
+hi TabLineFill	gui=Bold	guifg=Gray		guibg=Black
+hi TabLineSel	gui=Bold	guifg=Yellow		guibg=DarkMagenta
 hi Type		gui=None	guifg=White		guibg=#000060
 hi VertSplit	gui=Bold	guifg=White		guibg=#5050FF
 hi Visual	gui=None	guifg=Yellow		guibg=DarkCyan
 hi WarningMsg	gui=None	guifg=#000060		guibg=Yellow
-hi DiffAdd	gui=Bold	guifg=Yellow		guibg=DarkMagenta
-hi DiffDelete	gui=None	guifg=Red		guibg=Black
-hi DiffChange	gui=None	guifg=White		guibg=DarkMagenta
-hi DiffText	gui=Bold	guifg=Yellow		guibg=Magenta
-
 
 " For EasyTags plugin
 " http://www.vim.org/scripts/script.php?script_id=3114
